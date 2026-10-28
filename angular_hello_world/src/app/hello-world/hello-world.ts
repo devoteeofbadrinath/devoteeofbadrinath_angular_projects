@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-hello-world',
@@ -6,4 +6,12 @@ import { Component } from '@angular/core';
   templateUrl: './hello-world.html',
   styleUrl: './hello-world.css',
 })
-export class HelloWorld {}
+export class HelloWorld implements OnInit{
+
+  constructor() { }
+
+  ngOnInit() {
+    
+  }
+  }
+}
