@@ -9,5 +9,6 @@ import { HelloWorld} from './hello-world/hello-world';
   styleUrl: './app.css'
 })
 export class App {
-  protected readonly title = signal('angular_hello_world');
+  //protected readonly 
+  title = 'angular_hello_world';
 }
